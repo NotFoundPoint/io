@@ -6,6 +6,7 @@ public class CalculatorTest {
 
     @Test
     public void addTest(){
+        System.out.println("This is Hot-fix");
         System.out.println("fix hot");
         System.out.println("Welcome use Calculate");
         Calculator calculator = new Calculator();
