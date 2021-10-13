@@ -11,5 +11,6 @@ public class CalculatorTest {
         System.out.println("Welcome use Calculate");
         Calculator calculator = new Calculator();
         int add = calculator.add(1, 2);
+        System.out.println(add);
     }
 }
