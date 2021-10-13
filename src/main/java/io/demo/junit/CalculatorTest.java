@@ -6,9 +6,8 @@ public class CalculatorTest {
 
     @Test
     public void addTest(){
-
+        System.out.println("Welcome use Calculate");
         Calculator calculator = new Calculator();
         int add = calculator.add(1, 2);
-//        Assert.assertEquals(1,add);
     }
 }
